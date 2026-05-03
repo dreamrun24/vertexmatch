@@ -1,0 +1,65 @@
+# Build outputs
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+*.ninja
+*.sln
+*.vcxproj
+*.vcxproj.*
+*.dir/
+
+# Compiled artifacts
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+*.o
+*.obj
+*.pdb
+*.ilk
+
+# Generated datasets and benchmark outputs
+data/*.csv
+data/*.json
+data/*.png
+data/*.svg
+!data/README.md
+!data/.gitkeep
+
+# Profiling and reports generated locally
+profiles/
+reports/
+*.perf.data
+*_perf_report.txt
+*_flamegraph.svg
+
+# Python/local tooling caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE/editor/user-local files
+.vscode/
+.idea/
+*.user
+*.suo
+*.swp
+*.tmp
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Local secrets/env files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.*
+secrets.*
