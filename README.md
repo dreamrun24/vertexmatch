@@ -236,6 +236,6 @@ The self-test runs hand-authored FIFO/partial-fill/cancel cases plus generated e
 ```bash
 ./build/vertexmatch_cli selftest
 ```
-Disclaimer
+## Disclaimer
 
 This project is for research and educational purposes only. Not intended for live trading.
